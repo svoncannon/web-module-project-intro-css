@@ -7,14 +7,13 @@ box-sizing:border-box;
 padding:0;
 margin:0;
 max-width:100%;
-border:1px solid grey;
 }
 html{
 font-size:62.5%;
 }
 body{
 font-family: 'Roboto Mono', monospace;
-font-size:1.6rem;
+font-size:2rem;
 }
 /*Nav Style */
 
@@ -26,10 +25,10 @@ nav{
 background:#FF764E; 
 color:white;
 text-align:center;
-border-radius: 15%;
-padding:1%;
-width: 5%;
-height: 5%;
+border-radius: 25px;
+  padding: 30px;
+  width: 200px;
+  height: 150px;
 margin: 10% 10%;
 
 }
@@ -37,37 +36,37 @@ margin: 10% 10%;
 background:#5ED3EB;
 color:white;
 text-align:center;
-border-radius: 10%;
-padding: 1%;
-width: 5%;
-height: 5%;
-margin: 10% 5%;
+border-radius: 25px;
+  padding: 30px;
+  width: 200px;
+  height: 150px;
+  margin: 10% 10%;
 }
 .involved{
 background:#FFCD69;
 color:white;
+border-radius:25px;
+padding: 30px;
+width: 200px;
+height: 150px;e;
 text-align:center;
-border-radius: 10%;
-padding: 1%;
-width: 5%;
-height: 5%;
 margin: 10% 5%;
-
 }
 
 /*Header Style*/
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size:5rem;
+    font-size:8.5rem;
     display:inline-block;
-    margin-top: 5%;
-    margin-left: 20%;
-    width:55%;
+    margin-top: 5%; 
+    margin-left: 10%;
+    width:100%;
+   
 }
 .header{
     display:inline-block;
-    width: 15%;
-    height: 20%;
+    width: 20%;
+    height: 25%;
     border-radius: 50%;
     margin-left:10%;
     margin-top: 3%; 
@@ -76,29 +75,111 @@ h1{
   }
 h5{
     display:inline-block;
-    font-size:1.7rem;
-    width:75%;
+    font-size:3rem;
+    width:95%;
     text-align: center;
-    line-height:4
+    margin-top: 5%;
 }
 .top{
-    margin-bottom: 12%;
+    margin-bottom: 6%;
+   margin-left: 35%;
+   margin-right:3%;
 }
-
+.head{
+    margin-left: 20%;
+    margin-right:20%;
+}
 /* Intro Section Style*/
 .intro{
     color:white;
     background:#DDB9A3;
+    text-align: center;
+    margin-left:2%;
+    margin-right: 2%;
+    font-size:3.4rem;
+   
+}
+.p1{
+    padding:1%;
+}
+.p2{
+    padding:1%;
 }
 /* Fire Section Style*/
-.fire{
-    font-size:1rem;
+
+.fires{
     text-align:center;
-    padding:5% 15%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 40%;
+    margin-right:40%;
+    height:250px; 
+     
+}
+.fire{
+    display: inline-block;
+    font-size: 1.4rem;
+}
+.campfires{
+    max-width: auto ;
+    max-height: 200px;
+}
+
+/* Camp Section Style*/
+.RV{
+    max-width: auto ;
+    max-height: 200px;
+}
+.camp{
+    text-align:center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 40%;
+    margin-right:40%;
+    height:250px; 
+    display: inline-block;
+    font-size: 1.4rem;
+}
+/*Footer Style*/
+.bottom{
+    background-color:#F9E7DC;
+    padding-top:1%;
+    padding-bottom:2%;
 
 }
-/* Camp Section Style*/
-/*Footer Style*/
 .footer{
-    background:#F9E7DC;
-}
+    
+    background: url(https://github.com/svoncannon/web-module-project-intro-css/blob/master/assets/footer_img.jpg?raw=true) no-repeat;
+    background-size: cover;
+    height: 500px;
+     }
+
+ .plan1{
+    background:#FF764E; 
+    color:white;
+    text-align:center;
+    border-radius: 25px;
+      padding: 30px;
+      width: 200px;
+      height: 150px;
+      margin: 10% 10%;
+    }
+    .learn1{
+    background:#5ED3EB;
+    color:white;
+    text-align:center;
+    border-radius: 25px;
+      padding: 30px;
+      width: 200px;
+      height: 150px;
+      margin: 10% 10%;
+    }
+    .involved1{
+    background:#FFCD69;
+    color:white;
+    border-radius:25px;
+    padding: 30px;
+    width: 200px;
+    height: 150px;
+    text-align:center;
+    margin: 10% 5%;
